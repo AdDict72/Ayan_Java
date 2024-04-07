@@ -34,7 +34,7 @@ public class Q_3 {
             ms.CheckMatch();
         }
         catch(NoMatchFoundException e){
-            System.out.println("ERROR : " + e.getMessage());
+            System.out.println("ERROR : " + e);
 
         }
         

@@ -62,6 +62,7 @@ public class Q_4 {
         String regnNumber_B = sc.nextLine();
         System.out.println("Speed : " );
         int speed_B = sc.nextInt();
+        sc.nextLine();
         System.out.println("Color : " );
         String color_B = sc.nextLine();
         System.out.println("Owner Name : " );
@@ -70,12 +71,13 @@ public class Q_4 {
         String routeNumber_B = sc.nextLine();
         Bus b = new Bus(regnNumber_B, color_B, ownerName_B, speed_B, routeNumber_B);
         System.out.println("=======================================");
-
+        
         System.out.println("Enter Car Details :");
         System.out.println("Registration Number: ");
         String regnNumber_c = sc.nextLine();
         System.out.println("Speed : " );
         int speed_c = sc.nextInt();
+        sc.nextLine();
         System.out.println("Color : " );
         String color_c = sc.nextLine();
         System.out.println("Owner Name : " );

@@ -53,7 +53,7 @@ class Account extends Customer implements Bank {
 public class Q_13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+    
         System.out.print("Enter customer name: ");
         String name = sc.nextLine();
         System.out.print("Enter customer ID: ");
@@ -61,18 +61,9 @@ public class Q_13 {
         Account account1 = new Account(name, id, "", 0.0);
         account1.inputAccountDetails();
         account1.display();
-        account1.show();
-
-        System.out.print("Enter another customer name: ");
-        name = sc.nextLine();
-        System.out.print("Enter another customer ID: ");
-        id = sc.nextLine();
-        Account account2 = new Account(name, id, "", 0.0);
-        account2.inputAccountDetails();
-        account2.display();
-        account2.show();
-
+        account1.show();    
         sc.close();
     }
+    
 }
 

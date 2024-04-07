@@ -35,7 +35,7 @@ class Result extends student implements Exam{
 }
 public class Q_19 {
     public static void main(String[] args) {
-        Result r = new Result("Ayan Das", 7, 23, 30);
+        Result r = new Result("john", 7, 23, 30);
         r.show();
         r.display();
  }
